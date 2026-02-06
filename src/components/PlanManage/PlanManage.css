@@ -56,21 +56,21 @@
 }
 
 .plan__btn--primary {
-  background: #5E81FE;
-  color: #fff;
+  background: #4C85FF;
+  color: #FFFFFF;
   border: none;
   padding: 14px 22px;
-  border-radius: 5px;
+  border-radius: 2px;
 
   box-shadow: 0 12px 24px rgba(94, 129, 254, 0.25);
 }
 
 .plan__btn--ghost {
-  background: #f3f5ff;
-  color: #a0a8c5;
-  border: 1px solid #e3e7ff;
+  background: #F5F8FF;
+  color: #ADB4D2;
+  border: 1px solid #ADB4D2;
   padding: 14px 22px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .plan__img {
