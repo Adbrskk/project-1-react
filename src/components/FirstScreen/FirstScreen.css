@@ -1,0 +1,79 @@
+.first-screen {
+  width: 100%;
+  min-height: 700px;
+  padding: 60px 0 80px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-screen__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.first-screen__kicker {
+  margin-top: 60px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #3d4f9f;
+}
+
+.first-screen__title {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 300;
+  color: #3d4f9f;
+}
+
+.first-screen__title span {
+  font-weight: 700;
+}
+
+.first-screen__text {
+  margin-top: 22px;
+  max-width: 560px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #8d96bd;
+}
+
+.first-screen__play {
+  margin-top: 34px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 10px 30px rgba(61, 79, 159, 0.15);
+}
+
+.first-screen__dots {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.first-screen__dots .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(94, 129, 254, 0.25);
+}
+
+.first-screen__dots .dot.active {
+  background: #5E81FE;
+}
