@@ -1,0 +1,29 @@
+.partners {
+  width: 100%;
+  background: #fff;
+}
+
+.partners__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners__logo {
+  height: 24px;
+  width: auto;
+  opacity: 0.4;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.partners__logo:hover {
+  opacity: 1;
+  filter: brightness(0) saturate(100%) 
+          invert(43%) sepia(98%) 
+          saturate(1641%) hue-rotate(204deg);
+}
